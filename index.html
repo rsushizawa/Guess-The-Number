@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body onload="generateNumber()">
+    <div class="container">
+        <h1>Guess the Number</h1>
+        <div>
+            <input id="guessedNumber" type="text" placeholder="Guess a number">
+            <button onclick="verifyNumber()">Guess</button>
+            <div>
+                <ul id="guessHistory"></ul>
+            </div>
+        </div>
+        <div id="result"></div>
+        <div id="score"></div>
+        <button id="restart" onclick="location.reload()">Restart</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
