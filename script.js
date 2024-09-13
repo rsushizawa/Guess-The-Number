@@ -12,7 +12,6 @@ function generateNumber(){
 
 function verifyNumber(){
     if (score == 0){
-        score-=1;
         showResult();
     }
     else if (score > 0){
